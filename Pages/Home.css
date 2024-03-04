@@ -1,0 +1,563 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Ma+Shan+Zheng&family=Poppins&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family= Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Salsa&display=swap');
+
+body{
+    margin: 0%;
+    overflow-y: auto; 
+}
+::-webkit-scrollbar{
+    width: 8px;
+    background-color: #87b1ce;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #6a79b0;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: #525f8f;
+}
+header {
+    position: sticky;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    width: 100%;
+    height: 131px;
+    margin: 0%;
+    background-color: #29335C;
+    justify-content: center;
+}
+.container-Logo{
+    display: flex;
+    align-items: center;
+    margin-left: 140px;
+    cursor: pointer;
+}
+.NavBar-Logo{
+    width: 100px;
+    height: 92px;
+}
+.FastBuy{
+    font-size: 65px;
+    font-family: 'roboto condensed';
+    color: #fff;
+    margin: 0;
+    padding-left: 10px;
+}
+nav{
+    text-align: start;
+    height: 131px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+li {
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 10px;
+    color: #fff;
+    font-family: 'Poppins';
+    cursor: pointer;
+    transition: all ease-in-out 1s;
+}
+li:hover{
+    color: #6A7FDB;
+}
+ul{
+    list-style: none;
+    padding: 0%;
+    margin-top: 100px;
+    margin-bottom: 0;
+    padding-left: 15%;
+}
+
+        /* Versão Tablet */
+@media screen and (max-width:850px){
+.container-Logo{
+    height: 131px;
+    margin-left: 40px;
+}
+ul{
+    padding-left: 10%;
+}
+}
+
+        /* Versão Mobile */
+@media screen and (max-width:450px) {
+    .FastBuy{
+        display: none;
+    }
+    li{
+        padding-right: 10px;
+    }
+}
+.sectio-01{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 347px;
+    background-color: #DEE9F2;
+}
+.container-text{
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+.Titulo{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Poppins';
+    color: #2892D7;
+    margin: 0;
+}
+.Sub-Titulo{
+    font-size: 20px;
+    font-family: 'Poppins';
+    color: #2892D7;
+    margin: 0;
+}
+.Titulo, .Sub-Titulo {
+    margin-left: 80px;
+}
+.btn-Download{
+    width: 241px;
+    height: 52px;
+    margin-left: 80px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'roboto condensed';
+    background-color: #0063A3;
+    border-radius: 10px;
+    border-color: transparent;
+    transition: all ease-in 0.5s;
+}
+.btn-Download:hover {
+    background-color: #2892D7;
+}
+.container-Qrcode{
+    float: right;
+    margin-right: 200px;
+    margin-top: -300px;
+}
+.Qrcode{
+    display: flex;
+    width: 230px;
+    height: 230px;
+}
+@media screen and (max-width:850px) {
+    .container-Qrcode{
+        margin-right: 100px;
+        margin-top: -200px;
+    }
+    .Qrcode{
+        width: 164px;
+        height: 164px;
+    }
+}
+@media screen and (max-width:450px) {
+    .Titulo, .Sub-Titulo{
+        font-size: 18px;
+        margin-left: 40px;
+    }
+    .btn-Download{
+        width: 170px;
+        height: 40px;
+        font-size: 15px;
+        margin-left: 40px;
+    }
+    .Qrcode{
+        width: 110px;
+        height: 110px;
+    }
+    .container-Qrcode{
+        margin-right: 20px;
+        margin-top: -170px;
+    }
+}
+.section-2{
+    width: 100%;
+    height: 330px;
+}
+.number-relogio{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 41px;
+    width: 608px;
+    height: 210px;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+.container-section-02{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-section-02-titulo-text{
+    margin-top: 80px;
+    margin-left: 80px;
+}
+.Titulo-section-02{
+    font-size: 30px;
+    margin: 0;
+    font-family: 'Poppins';
+    font-weight: bold;
+    color: #0063A3;
+}
+.Text-section-02{
+    font-size: 15px;
+    font-family: 'Poppins';
+    color: #0063A3;
+    width: 429px;
+    height: 54px;
+}
+@media screen and (max-width:850px) {
+    .Number01{
+        width: 134px;
+        height: 134px;
+    }
+    .relogio{
+        width: 267px;
+        height: 149px;
+    }
+    .number-relogio{
+        margin-left: 40px;
+    }
+    .container-section-02-titulo-text{
+        margin-top: 40px;
+        margin-left: 0;
+        
+    }
+    .Text-section-02{
+        width: 305px;
+    }
+   .Number01, .relogio{
+    margin-top: 40px;
+   }
+}
+@media screen and (max-width:450px) {
+    .container-section-02{
+        display: grid;
+        height: 300px;
+    }    
+    .number-relogio{
+        gap: 0;
+        width: 100%;
+        margin: 0;
+        margin-left: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+    .relogio{
+        width: 204px;
+        height: 109px;
+    }
+    .Number01{
+        width: 98px;
+        height: 98px;
+    }
+    .container-section-02-titulo-text{
+        margin-left: 20px;
+    }
+}
+.contianer-section-03{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-section-03-Titulo-Text{
+  margin-left: 80px;
+  margin-top: 80px;
+}
+.Titulo-section-03{
+    font-size: 30px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    color: #0063A3;
+    margin: 0;
+}
+.Text-section-03{
+    font-size: 15px;
+    font-family: 'Poppins';
+    color: #0063A3;
+    width: 493px;
+}
+.container-imagens-section-03{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width:850px) {
+    .Text-section-03{
+        width: 303px;
+    }
+    .numero02{
+        width: 134px;
+        height: 134px;
+        margin-left: -55px;
+        z-index: 1;
+    }
+    .Celularpop{
+        width: 325px;
+        height: 325px;
+    }
+}
+@media screen and (max-width:450px) {
+    .contianer-section-03{
+        display: grid;
+        margin-top: 200px;
+    }
+    .container-section-03-Titulo-Text{
+        margin-top: 40px;
+        margin-left: 35px;
+        width: 351px;
+    }
+    .CelularProp{
+        width: 218px;
+        height: 218px;
+    }
+    .numero02{
+        width: 98px;
+        height: 98px;
+        margin-left: 0;
+    }
+}
+.section-4{
+    width: 100%;
+    height: 958px;
+    background-color: #DEE9F2;
+}
+.container-section-4{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.container-imagens-section-04{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-titulo-section-04{
+    font-size: 30px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    color: #0063A3;
+    margin: 0;
+}
+.container-texto-section-04{
+    font-size: 15px;
+    font-family: 'Poppins';
+    color: #0063A3;
+    width: 476px;
+}
+.container-texto-section-04, .container-titulo-section-04{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.container-titulo-texto-section-04{
+    margin-top: 80px;
+    margin-left: 80px;
+}
+@media screen and (max-width:850px){
+    .Numero3{
+        width: 134px;
+        height: 134px;
+    }
+    .SegurancaCelular{
+        width: 270px;
+        height: 270px;
+    }
+    .container-texto-section-04{
+        width: 291px;
+    }
+    .container-texto-section-04, .container-titulo-section-04{
+        margin: 0;
+    }
+    .container-titulo-texto-section-04{
+        margin-left: 40px;
+        margin-top: 80px;
+    }
+}
+@media screen and (max-width:450px) {
+    .Numero3{
+        width: 98px;
+        height: 98px;
+    }
+    .SegurancaCelular{
+        width: 232px;
+        height: 232px;
+    }
+    .container-imagens-section-04{
+        align-items: center;
+        justify-content: center;
+    }
+   .container-section-4{
+    display: flex;
+    flex-direction: column;
+   }
+}
+.container-imagens-rodape-section-04{
+    margin-left: 80px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+.Logo-rodape{
+    width: 185px;
+    height: 185px;
+    margin-top: 120px;
+    padding-left: 20px;
+}
+@media screen and (max-width:850px){
+    .Download{
+        width: 306px;
+        height: 152px;
+        margin-top: 120px;
+    }
+    .Logo-rodape{
+        width: 113px;
+        height: 113px;
+    }
+    .CelularPro02-1{
+        width: 291px;
+        height: 396px;
+    }
+    .section-4{
+        height: 750px;
+    }
+}
+@media screen and (max-width:450px) {
+    .section-4{
+        height: auto;
+    }
+    .Logo-rodape{
+        display: none;
+    }
+    .container-imagens-rodape-section-04{
+        display: grid;
+        align-items: center;
+        margin-left: 40px;
+        padding-bottom: 40px;
+    }
+}
+footer{
+    width: 100%;
+    height: 373px;
+    background-color: #29335C;
+}
+.section-footer {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.section-Logo-footer{
+    display: flex;
+    align-items: center;
+    height: 373px;
+    margin-left: 80px;
+}
+.container-logo-footer{
+   display: flex;
+}
+.Logo-footer{
+    width: 100px;
+    height: 100px;
+}
+.fastbuy{
+    font-size: 65px;
+    font-family: 'roboto condensed';
+    color: #fff;
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.section-conteudo-footer{
+    width: 100%;
+}
+.nav-footer{
+    text-align: start;
+    height: 131px;
+}
+.lista-footer {
+    list-style-type: none;
+    display: block;
+    font-size: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+    font-family: 'Poppins';
+    cursor: pointer;
+    transition: all ease-in-out 1s;
+    width: 150px;
+}
+.lista-footer:hover{
+    color: #6A7FDB;
+}
+.ul-footer{
+    list-style: none;
+    padding: 0%;
+    margin-top: 100px;
+    margin-bottom: 0;
+    padding-left: 15%;
+}
+.navegue {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Poppins';
+    color: #fff;
+}
+.container-conteudo-icon{
+    display: flex;
+    float: right;
+   
+}
+.insta{
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+    float: right;
+    margin-right: 120px;
+    margin-top: -15px;
+}
+hr {
+    width: 666px;
+    border: #fff solid 2px;
+    margin-top: 50px;
+    display: flex;
+}
+.container-text-rodape-footer{
+    display: flex;
+    float: right;
+    margin-right: 40px;
+}
+@media screen and (max-width:850px) {
+    .Logo-footer{
+        width: 74px;
+        height: 74px;
+    }
+    .fastbuy{
+        font-size: 50px;
+    }
+    .insta{
+        margin-right: 80px;
+    }
+    hr {
+        width: 318px;
+    }
+}
+@media screen and (max-width:450px) {
+    .section-footer{
+        display: flex;
+        flex-direction: column;
+    }
+    footer{
+        height: auto;
+    }
+    .section-Logo-footer{
+        display: none;
+    }
+    .container-text-rodape-footer{
+        display: flex;
+        float: right;
+        margin-right: 10px;
+    }
+    .ul-footer{
+        margin-top: 40px;
+    }
+}
