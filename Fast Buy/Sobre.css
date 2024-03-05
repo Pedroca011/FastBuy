@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Ma+Shan+Zheng&family=Poppins&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family= Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Salsa&display=swap');
+body{
+    margin: 0%;
+    overflow-y: auto; 
+    background-color: #DEE9F2;
+}
+::-webkit-scrollbar{
+    width: 8px;
+    background-color: #87b1ce;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #6a79b0;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: #525f8f;
+}
+header {
+    position: sticky;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    width: 100%;
+    height: 131px;
+    margin: 0%;
+    background-color: #29335C;
+    justify-content: center;
+}
+.container-Logo{
+    display: flex;
+    align-items: center;
+    margin-left: 140px;
+    cursor: pointer;
+}
+.NavBar-Logo{
+    width: 100px;
+    height: 92px;
+}
+.FastBuy{
+    font-size: 65px;
+    font-family: 'roboto condensed';
+    color: #fff;
+    margin: 0;
+    padding-left: 10px;
+}
+nav{
+    text-align: start;
+    height: 131px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+li {
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 10px;
+    color: #fff;
+    font-family: 'Poppins';
+    cursor: pointer;
+    transition: all ease-in-out 1s;
+}
+li:hover{
+    color: #6A7FDB;
+}
+ul{
+    list-style: none;
+    padding: 0%;
+    margin-top: 100px;
+    margin-bottom: 0;
+    padding-left: 15%;
+}
+@media screen and (max-width:850px){
+    .container-Logo{
+        height: 131px;
+        margin-left: 40px;
+    }
+    ul{
+        padding-left: 10%;
+    }
+    }
+    
+            /* Versão Mobile */
+    @media screen and (max-width:450px) {
+        .FastBuy{
+            display: none;
+        }
+        li{
+            padding-right: 10px;
+        }
+    }
+    section{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .titulo {
+        font-size: 65px;
+        font-weight: 800;
+        font-family: 'Poppins';
+        color: #29335C;
+        margin: 0;
+    }
+    .texto{
+        font-size: 20px;
+        font-family: 'Poppins';
+        width: 1159px;
+    }
+    .container {
+        margin-left: 120px;
+        margin-top: 80px;
+    }
+   @media screen and (max-width:850px) {
+    .texto{
+        width: 667px;
+    }
+   }
+   @media screen and (max-width:450px) {
+    .texto{
+        width: 296px;
+        font-size: 15px;
+    }
+    .titulo{
+        font-size: 30px;
+    }
+    .container{
+        margin-left: 40px;
+    }
+   }
+
+    footer{
+        width: 100%;
+        height: 373px;
+        background-color: #29335C;
+        margin-top: 120px;
+    }
+    .section-footer {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .section-Logo-footer{
+        display: flex;
+        align-items: center;
+        height: 373px;
+        margin-left: 80px;
+    }
+    .container-logo-footer{
+       display: flex;
+    }
+    .Logo-footer{
+        width: 100px;
+        height: 100px;
+    }
+    .fastbuy{
+        font-size: 65px;
+        font-family: 'roboto condensed';
+        color: #fff;
+        margin: 0;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    .section-conteudo-footer{
+        width: 100%;
+    }
+    .nav-footer{
+        text-align: start;
+        height: 131px;
+    }
+    .lista-footer {
+        list-style-type: none;
+        display: block;
+        font-size: 20px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        color: #fff;
+        font-family: 'Poppins';
+        cursor: pointer;
+        transition: all ease-in-out 1s;
+        width: 150px;
+    }
+    .lista-footer:hover{
+        color: #6A7FDB;
+    }
+    .ul-footer{
+        list-style: none;
+        padding: 0%;
+        margin-top: 100px;
+        margin-bottom: 0;
+        padding-left: 15%;
+    }
+    .navegue {
+        font-size: 20px;
+        font-weight: 600;
+        font-family: 'Poppins';
+        color: #fff;
+    }
+    .container-conteudo-icon{
+        display: flex;
+        float: right;
+       
+    }
+    .insta{
+        font-size: 30px;
+        color: #fff;
+        cursor: pointer;
+        float: right;
+        margin-right: 120px;
+        margin-top: -15px;
+    }
+    hr {
+        width: 666px;
+        border: #fff solid 2px;
+        margin-top: 50px;
+        display: flex;
+    }
+    .container-text-rodape-footer{
+        display: flex;
+        float: right;
+        margin-right: 40px;
+    }
+    @media screen and (max-width:850px) {
+        .Logo-footer{
+            width: 74px;
+            height: 74px;
+        }
+        .fastbuy{
+            font-size: 50px;
+        }
+        .insta{
+            margin-right: 80px;
+        }
+        hr {
+            width: 318px;
+        }
+    }
+    @media screen and (max-width:450px) {
+        .section-footer{
+            display: flex;
+            flex-direction: column;
+        }
+        footer{
+            height: auto;
+        }
+        .section-Logo-footer{
+            display: none;
+        }
+        .container-text-rodape-footer{
+            display: flex;
+            float: right;
+            margin-right: 10px;
+        }
+        .ul-footer{
+            margin-top: 40px;
+        }
+    }
