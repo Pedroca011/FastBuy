@@ -556,6 +556,7 @@ hr {
         display: flex;
         float: right;
         margin-right: 10px;
+        cursor: pointer;
     }
     .ul-footer{
         margin-top: 40px;
